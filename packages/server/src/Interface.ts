@@ -71,6 +71,8 @@ export interface IChatFlow {
     category?: string
     type?: ChatflowType
     workspaceId: string
+    webhookSecret?: string | null
+    webhookSecretConfigured?: boolean
 }
 
 export interface IChatMessage {
